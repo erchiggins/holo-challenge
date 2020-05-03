@@ -1,0 +1,21 @@
+#choose_data {
+    padding: 2rem;
+}
+
+#table_data>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_block {
+    position: ;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
