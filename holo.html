@@ -12,22 +12,27 @@
 <body>
     <div class="container-fluid">
         <section id="choose_data" class="row">
-            <div id="original" class="col">
+            <div id="original" class="col-sm-4">
                 <button id="choose_original" class="btn btn-md btn-block btn-primary" type="button">Load original dataset</button>
             </div>
-            <div id="wide" class="col">
+            <div id="wide" class="col-sm-4">
                 <button id="choose_wide" class="btn btn-md btn-block btn-primary" type="button">Load wide dataset</button>
             </div>
-            <div id="long" class="col">
+            <div id="long" class="col-sm-4">
                 <button id="choose_long" class="btn btn-md btn-block btn-primary" type="button">Load long dataset</button>
             </div>
         </section>
-        <section id="show_data" class="row">
+        <section class="row">
+            <div class="col-md-1"></div>
+            <div id="chart_data" class="col-md-10">
+                <canvas id="line_chart"></canvas>
+            </div>
+            <div class="col-md-1"></div>
+        </section>
+        <section class="row">
             <div id="table_data" class="col">
                 <div id="table_header"></div>
-            </div>
-            <div id="chart_data" class="col">
-                <canvas id="line_chart"></canvas>
+                <div id="table_body"></div>
             </div>
         </section>
     </div>
